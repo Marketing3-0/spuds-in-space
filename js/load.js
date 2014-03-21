@@ -3,10 +3,13 @@ Game = {};
 	var w = screen.width;
 	var h = screen.height;
 
-if (w > 1000) {
-	w = 400;
-	h = 480;
-} 
+/*
+	//	computer browser only
+	if (w > 1000) {
+		w = 400;
+		h = 480;
+	}
+*/
 var score = 0;
 var highscore = 0;
 
